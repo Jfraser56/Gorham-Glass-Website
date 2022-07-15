@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .bg-pattern-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.5) 75%),
+      url("https://drive.google.com/uc?id=1MiIwJaEVvvD7KeTcyh2Ru34F-Y-hdeFh")
+        no-repeat center/cover;
+  }
+  .bg-pattern-serviceCard {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+      url("https://drive.google.com/uc?id=1Nbjm6izxEC_dL8Ez-tuP76vHWCMt3LYa")
+        no-repeat center/cover;
+  }
+
+  .active {
+    color: #0369a1;
+    border-bottom: 2px solid #0369a1;
+  }
+}
