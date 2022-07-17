@@ -17,7 +17,6 @@ function ContactPage() {
       </h1>
       <div className="p-5 md:p-10 flex flex-col lg:flex-row">
         <form
-          action="/pages/success"
           name="contact"
           method="POST"
           data-netlify="true"
@@ -50,7 +49,6 @@ function ContactPage() {
             </label>
             <input
               id="phone"
-              name="phone"
               type="tel"
               className="mt-1 mb-5 transition w-full h-10 rounded-sm bg-black/30 text-white p-3 outline-none border border-white focus:border-2"
             />
@@ -59,7 +57,6 @@ function ContactPage() {
             </label>
             <input
               id="location"
-              name="location"
               type="text"
               className="mt-1 mb-5 transition w-full h-10 rounded-sm bg-black/30 text-white p-3 outline-none border border-white focus:border-2"
             />
@@ -68,7 +65,6 @@ function ContactPage() {
             </label>
             <textarea
               id="message"
-              name="message"
               type="text"
               className="resize-none mt-1 mb-5 transition w-full h-32 rounded-sm bg-black/30 text-white p-3 outline-none border border-white focus:border-2"
             />
