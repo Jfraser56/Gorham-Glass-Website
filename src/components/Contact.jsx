@@ -9,9 +9,8 @@ function Contact() {
           SCHEDULE AN APPOINTMENT
         </h2>
         <p className="font-light">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet
-          eos ducimus harum officia, aspernatur at mollitia ratione numquam
-          omnis?
+          To set up a service consultation, please contact us at your
+          convenience. We look forward to solving any issue you may have!
         </p>
       </div>
       <div className="w-full sm:w-1/2 space-y-3">
