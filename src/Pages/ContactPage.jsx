@@ -22,6 +22,7 @@ function ContactPage() {
           data-netlify="true"
           className="w-full h-[45rem] lg:w-2/3 bg-pattern-contactForm p-10 pb-5"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <h3 className="text-center text-white text-2xl font-light mb-8">
             Contact
           </h3>
