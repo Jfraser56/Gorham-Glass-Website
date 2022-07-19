@@ -1,12 +1,15 @@
 import React from "react";
-import logo from "../assets/png/transparent-logo.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <div className="bg-pattern-hero h-[30rem] w-full flex flex-col items-center justify-start pt-12 space-y-12">
-      <img className="h-36" src={logo} alt="" />
+    <div className="bg-pattern-hero h-[30rem] w-full flex flex-col items-center justify-start space-y-8">
+      <img
+        className="h-52"
+        src="https://drive.google.com/uc?id=1L-mdoHZG14qI5r9AnTCBkMt1MbK5eLIp"
+        alt=""
+      />
       <h1 className="text-2xl text-white text-center">
         Professional glass Repair, Replacement, Cleaning, and Installation.{" "}
         <br /> Year-Round.

@@ -1,13 +1,12 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/png/transparent-logo.png";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 
 function Navbar() {
   return (
     <>
-      <div className="hidden md:flex h-10 w-full px-8 bg-sky-600  justify-start items-center space-x-8 text-white font-light">
+      <div className="hidden md:flex h-10 w-full px-8 bg-sky-700  justify-start items-center space-x-8 text-white font-light">
         <a
           className=" hover:underline underline-offset-1"
           href="tel:774-228-3381"
@@ -24,23 +23,48 @@ function Navbar() {
         </a>
       </div>
       <div className="h-20 flex justify-center sm:justify-between px-10 py-2 items-center bg-gray-50">
-        <Link to={"/"} className={"hidden sm:block h-full"}>
-          <img className="h-full" src={logo} alt="" />
+        <Link to={"/"} className={"hidden sm:block h-24"}>
+          <img
+            className="h-full"
+            src="https://drive.google.com/uc?id=1L-mdoHZG14qI5r9AnTCBkMt1MbK5eLIp"
+            alt=""
+          />
         </Link>
 
         <ul className="flex space-x-8">
           <li>
-            <NavLink className="transition hover:text-sky-700" to={"/"}>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-sky-700 underline underline-offset-2"
+                  : "transition hover:text-sky-700"
+              }
+              to={"/"}
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className="transition hover:text-sky-700" to={"/about"}>
-              About
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-sky-700 underline underline-offset-2"
+                  : "transition hover:text-sky-700"
+              }
+              to={"/services/glass-repair"}
+            >
+              Services
             </NavLink>
           </li>
           <li>
-            <NavLink className="transition hover:text-sky-700" to={"/contact"}>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-sky-700 underline underline-offset-2"
+                  : "transition hover:text-sky-700"
+              }
+              to={"/contact"}
+            >
               Contact
             </NavLink>
           </li>

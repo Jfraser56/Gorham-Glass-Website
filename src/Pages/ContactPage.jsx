@@ -1,14 +1,18 @@
-import React from "react";
+import { useEffect } from "react";
 import { BsLaptop, BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 
 function ContactPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-slate-50">
-      <div className="bg-contact-hero h-[30rem] w-full text-center pt-32 space-y-12">
+      <div className="bg-contact-hero h-[30rem] w-full text-center pt-40 space-y-8">
         <h1 className="text-5xl text-white">Contact Us</h1>
-        <h1 className="text-3xl text-white leading-10">
-          Open Daily <br /> 9:00am - 4:00pm
+        <h1 className="text-3xl font-light text-white leading-10">
+          Open Monday to Friday <br /> 9:00am - 4:00pm
         </h1>
       </div>
       <h1 className="my-10 text-center mx-auto font-bold text-2xl sm:text-3xl w-2/3">
@@ -80,10 +84,10 @@ function ContactPage() {
         <div className="w-full flex flex-col p-10 lg:py-0 space-y-10">
           <div className="flex flex-col justify-start items-center lg:items-start text-gray-500 ">
             <p>gorhamglass@gmail.com</p>
-            <p className="mb-5">774-228-3381</p>
+            <p className="mb-5">555-555-5555</p>
             <p>Gorham Glass LLC</p>
             <p>103 South Street</p>
-            <p>Gorham ME, 04048</p>
+            <p>Gorham ME, 04038</p>
           </div>
           <div className="h-full flex flex-col justify-between">
             <div className="flex flex-col justify-center items-center h-40 mb-5 w-full bg-white drop-shadow-lg rounded-lg text-lg font-light">
@@ -92,12 +96,12 @@ function ContactPage() {
             </div>
             <div className="flex flex-col justify-center items-center h-40 mb-5 w-full bg-white drop-shadow-lg rounded-lg text-lg font-light">
               <BsTelephone size="1.75rem" className="mb-3 fill-sky-600" />
-              (774) 228-3381
+              (555) 555-5555
             </div>
             <div className="flex flex-col justify-center items-center h-40 w-full bg-white drop-shadow-lg rounded-lg text-lg font-light text-center">
               <AiOutlineMail size="1.75rem" className="mb-3 fill-sky-600" />
               Gorham Glass <br />
-              103 South Street, Gorham ME 04048
+              103 South Street, Gorham ME 04038
             </div>
           </div>
         </div>
