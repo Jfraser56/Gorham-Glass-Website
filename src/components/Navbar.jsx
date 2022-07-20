@@ -9,10 +9,10 @@ function Navbar() {
       <div className="hidden md:flex h-10 w-full px-8 bg-sky-700  justify-start items-center space-x-8 text-white font-light">
         <a
           className=" hover:underline underline-offset-1"
-          href="tel:774-228-3381"
+          href="tel:774-205-4539"
         >
           <BsTelephone size="1.1rem" className="inline mr-1" />
-          774-228-3381
+          774-205-4539
         </a>
         <a
           className="hover:underline underline-offset-1 "

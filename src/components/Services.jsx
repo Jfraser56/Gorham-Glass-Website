@@ -6,19 +6,22 @@ function Services() {
   return (
     <div className="flex flex-col items-center justify-start pt-10">
       <ServiceCardEven
-        title="Glass Repair & Replacement"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis inventore optio dicta dolorum, illo temporibus doloremque officiis? Fuga, ipsum."
+        title="Glass"
+        desc="We provide a wide range of glass units for any window or door you need serviced. Depending on your home, we offer both annealed, tempered, and laminated glass units, as well as specialized coatings to maximize your homes energy efficiency."
         linkTo="services/glass-repair"
+        background="bg-pattern-serviceCard1"
       />
       <ServiceCardOdd
-        title="Window Hardware Tune up"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis inventore optio dicta dolorum, illo temporibus doloremque officiis? Fuga, ipsum."
+        title="Hardware"
+        desc="Our service technicians professionally repair and replace hardware, such as window operators, multipoint door locks, and more."
         linkTo="services/hardware"
+        background="bg-pattern-serviceCard2"
       />
       <ServiceCardEven
-        title="Residential & Storefront Cleaning"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis inventore optio dicta dolorum, illo temporibus doloremque officiis? Fuga, ipsum."
+        title="Glass Cleaning"
+        desc="We offer professional glass cleaning services for both residential, and commercial buildings. Gorham Glass will get your business or home looking its best without spending a fortune."
         linkTo="services/cleaning"
+        background="bg-pattern-serviceCard3"
       />
     </div>
   );

@@ -23,9 +23,20 @@
         no-repeat center/cover;
   }
 
-  .bg-pattern-serviceCard {
+  .bg-pattern-serviceCard1 {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
       url("https://drive.google.com/uc?id=1Nbjm6izxEC_dL8Ez-tuP76vHWCMt3LYa")
+        no-repeat center/cover;
+  }
+
+  .bg-pattern-serviceCard2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+      url("https://drive.google.com/uc?id=1hRHzC02KzaDTRCcwmfUtVt44fDN9rzTT")
+        no-repeat center/cover;
+  }
+  .bg-pattern-serviceCard3 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+      url("https://drive.google.com/uc?id=1kUXrA1lUSKHta7w7Aj8YwDrVKpFBj7CY")
         no-repeat center/cover;
   }
   .bg-pattern-contactForm {

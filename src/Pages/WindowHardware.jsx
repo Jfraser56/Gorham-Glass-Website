@@ -9,21 +9,15 @@ function WindowHardware() {
       <h1 className="text-3xl font-bold text-center">
         Window Hardware Repair & Replacement
       </h1>
+
       <p className="text-lg">
-        Broken windows are so much more than a minor inconvenience in Colorado.
-        While this state is one of the most beautiful in the nation (we know we
-        may be a little biased), it is also known for its harsh weather. Whether
-        you find yourself with broken windows in the middle of winter or during
-        the hottest summer months, you need a company that offers quick and
-        reliable broken window repair. Fortunately, you’ve found it.
+        Windows are simple enough to understand, however their hardware can
+        quickly become complex as they contain many components with differing
+        mechanical systems that may have you pulling your hair out. We offer
+        repair and replacement services for many of these components to save you
+        time and money
       </p>
-      <p className="text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni, at
-        voluptatum ab dicta laudantium provident doloribus possimus in dolorem
-        praesentium cupiditate, qui animi laboriosam, odio tempora labore sint
-        obcaecati assumenda harum aliquam incidunt beatae. Quod ipsam suscipit
-        officia illo!
-      </p>
+
       <button
         onClick={() => navigate("/contact")}
         type="button"
@@ -33,18 +27,16 @@ function WindowHardware() {
       </button>
       <div className="h-full flex flex-col lg:flex-row bg-slate-100 p-8">
         <div className="h-96 w-full p-5">
-          <h2 className="text-lg font-bold mb-3">Types of glass we serve</h2>
+          <h2 className="text-lg font-bold mb-3">What we can help with</h2>
           <ul className="space-y-3">
-            <li>Clear Glass</li>
-            <li>Tempered Glass</li>
-            <li>Single Pane</li>
-            <li>Insulated Glass</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Sash lock and keeper replacement and adjustment</li>
+            <li>Casement window hinge replacement</li>
+            <li>Window weather stripping replacement</li>
+            <li>Casement Window alignment</li>
+            <li>Sticky double hung windows</li>
           </ul>
         </div>
-        <div className="h-96 w-full border bg-pattern-serviceCard"></div>
+        <div className="h-96 w-full border bg-pattern-serviceCard2"></div>
       </div>
     </div>
   );
