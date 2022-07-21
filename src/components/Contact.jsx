@@ -27,7 +27,7 @@ function Contact() {
       <div className="w-full sm:w-1/2 space-y-3">
         <h2 className="text-lg font-bold mb-2 underline">HOURS</h2>
         <p className="font-light">
-          Open Monday - Friday <br /> 7:00AM - 4:00PM
+          Open Monday - Friday <br /> 8:00AM - 4:00PM
         </p>
       </div>
     </div>

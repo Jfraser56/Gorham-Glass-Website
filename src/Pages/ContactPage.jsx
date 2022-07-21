@@ -12,7 +12,7 @@ function ContactPage() {
       <div className="bg-contact-hero h-[30rem] w-full text-center pt-40 space-y-8">
         <h1 className="text-5xl text-white">Contact Us</h1>
         <h1 className="text-3xl font-light text-white leading-10">
-          Open Monday to Friday <br /> 7:00am - 4:00pm
+          Open Monday to Friday <br /> 8:00am - 4:00pm
         </h1>
       </div>
       <h1 className="my-10 text-center mx-auto font-bold sm:text-3xl w-2/3">
