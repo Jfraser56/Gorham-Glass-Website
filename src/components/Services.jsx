@@ -13,13 +13,13 @@ function Services() {
       />
       <ServiceCardOdd
         title="Hardware"
-        desc="Our service technicians professionally repair and replace hardware, such as window operators, multipoint door locks, and more."
+        desc="Our service technicians repair and replace hardware, such as window operators, multipoint door locks, and more."
         linkTo="services/hardware"
         background="bg-pattern-serviceCard2"
       />
       <ServiceCardEven
         title="Glass Cleaning"
-        desc="We offer professional glass cleaning services for both residential, and commercial buildings. Gorham Glass will get your business or home looking its best without spending a fortune."
+        desc="We offer glass cleaning services for both residential, and commercial buildings. Gorham Glass will get your business or home looking its best without spending a fortune."
         linkTo="services/cleaning"
         background="bg-pattern-serviceCard3"
       />

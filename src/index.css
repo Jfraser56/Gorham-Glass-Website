@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer utilities {
   .bg-pattern-hero {
     background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.5) 75%),
       url("https://drive.google.com/uc?id=1MiIwJaEVvvD7KeTcyh2Ru34F-Y-hdeFh")

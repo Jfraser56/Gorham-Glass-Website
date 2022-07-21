@@ -11,9 +11,9 @@ function GlassRepair() {
       </h1>
       <p className="text-lg mb-5">
         Broken windows are so much more than a minor inconvenience in the
-        Northeast. While we live in one of the most beautiful parts of the
+        northeast. While we live in one of the most beautiful parts of the
         country (we know we may be a little biased), Maine is also known for its
-        harsh weather, from tropical coastal storms to Nor'easters. If you find
+        harsh weather, from tropical coastal storms to nor'easters. If you find
         yourself with damaged windows or doors in the middle of winter or during
         the hottest summer months, you need a company that offers quick and
         reliable broken window and door repair. Fortunately, you’ve found it.
@@ -32,20 +32,20 @@ function GlassRepair() {
         emissivity or Low-E coating on your new unit. This way, surfaces exposed
         to the sun the longest are able to reflect, absorb, and transmit heat.
         So, a Low-E coating reduces the amount of that heat transfers in or out
-        resulting in a more energy efficieny and comfortable home.
+        resulting in a more energy efficiency and comfortable home.
       </p>
       <button
         onClick={() => navigate("/contact")}
         type="button"
         className="transition py-2 px-4 mb-5 bg-orange-600 hover:bg-orange-700 text-white"
       >
-        Schedule a consulation
+        Schedule a free consulation
       </button>
       <div className="h-full flex flex-col lg:flex-row bg-slate-100 p-8">
         <div className="h-96 w-full p-5">
           <h2 className="text-lg font-bold mb-3">What we can help with</h2>
           <ul className="space-y-3">
-            <li>Clear glass replacement</li>
+            <li>Annealed glass replacement</li>
             <li>Tempered glass replacement</li>
             <li>Laminated glass replacement</li>
             <li>Single, double, and triple glazed units</li>

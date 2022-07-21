@@ -11,7 +11,7 @@ function Hero() {
         alt=""
       />
       <h1 className="text-2xl text-white text-center">
-        Professional glass Repair, Replacement, Installation, and Cleaning.{" "}
+        Professional Glass Repair, Replacement, Installation, and Cleaning.{" "}
         <br /> Year-Round.
       </h1>
       <Link

@@ -15,7 +15,7 @@ function ContactPage() {
           Open Monday to Friday <br /> 7:00am - 4:00pm
         </h1>
       </div>
-      <h1 className="my-10 text-center mx-auto font-bold text-2xl sm:text-3xl w-2/3">
+      <h1 className="my-10 text-center mx-auto font-bold sm:text-3xl w-2/3">
         You can always get in touch: Send us a message here, give us a call, or
         shoot us an Email and we will be sure to get back to you
       </h1>

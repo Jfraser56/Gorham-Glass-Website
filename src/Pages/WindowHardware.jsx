@@ -15,7 +15,7 @@ function WindowHardware() {
         quickly become complex as they contain many components with differing
         mechanical systems that may have you pulling your hair out. We offer
         repair and replacement services for many of these components to save you
-        time and money
+        time and money.
       </p>
 
       <button
@@ -23,7 +23,7 @@ function WindowHardware() {
         type="button"
         className="transition py-2 px-4 bg-orange-600 hover:bg-orange-700 text-white"
       >
-        Schedule a consulation
+        Schedule a free consulation
       </button>
       <div className="h-full flex flex-col lg:flex-row bg-slate-100 p-8">
         <div className="h-96 w-full p-5">
