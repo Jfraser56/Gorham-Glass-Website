@@ -18,9 +18,6 @@ function Contact() {
       </div>
       <div className="w-full sm:w-1/2 space-y-3">
         <h2 className="text-lg font-bold mb-2 underline">GORHAM GLASS</h2>
-        <p className="font-light">
-          103 South St, Gorham ME 04038, United States
-        </p>
         <p className="font-light">774-205-4539</p>
         <p className="font-light">gorhamglass@gmail.com</p>
       </div>
